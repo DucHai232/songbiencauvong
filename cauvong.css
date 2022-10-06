@@ -1,0 +1,192 @@
+.cauvong{
+    background-color: #eeafaf;
+}
+#content {
+
+}
+
+.clear{
+    clear: both;
+}
+
+#content .content-section{
+    width: 800px;
+    padding: 64px 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+
+
+.content-section .myheart{
+    color: #ef4848;
+}
+
+#content .section-sub-heading {
+    font-size: 15px;
+    margin-top: 25px;
+    opacity: 0.6;
+    text-align: center;
+    font-style: italic;
+}
+
+#content .about-text{
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+
+}
+
+#content .member-list{
+    margin-top: 48px;
+
+}
+
+#content .member-name {
+    text-align: center;
+    font-size: 15px;
+}
+
+#content .mytext {
+    color: red;
+    text-decoration: none;
+}
+
+#content .member-img {
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 4px;
+}
+
+#content .member-item {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+}
+
+.content-section-music{
+    background-color: #f5f29a;
+    margin-top: 450px;
+}
+
+.section-heading-music{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+.section-sub-heading-music{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-style: italic ;
+}
+
+.content-section .music {
+    margin-left: 20px;
+    margin-bottom: 70px;
+}
+.content-section .video {
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 376px;
+    height: 220px;
+}
+
+@keyframes heart{
+    50%{
+        transform: translate(-50%, -100%) scale(3,3);
+    }
+
+    100%{
+        transform: translate(-50%, -50%) scale(1,1);
+    }
+}
+
+.content-section .heart{
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 400px;
+    animation-name: heart;
+    animation-duration: 1s;
+    animation-iteration-count: infinite ;
+}
+
+.content-section .mytextname{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.content-section .mysubtextname {
+    color: #000000;
+}
+
+.heart div{
+    background: red;
+    width: 71px;
+    height: 126px;
+    top: 40%;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.heart .left{
+    left: 45px;
+    transform: rotate(330deg);
+
+}
+
+.heart .right{
+    right: 45px;
+    transform: rotate(-330deg);
+}
+
+.map-section {
+    margin-top: 100px;
+}
+.map-section img {
+    width: 100%;
+}
+
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+}
+
+#footer .socials-list {
+    font-size: 24px;
+    
+}
+#footer a,
+#footer .socials-list a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+
+}
+#footer a,
+#footer .socials-list a:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#footer .copyright {
+    margin-top: 15px;
+    
+}
+
+
+
